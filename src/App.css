@@ -1,0 +1,188 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/*Phan nay xuong */
+
+/* Định dạng cho container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột đều nhau */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px; /* Giới hạn chiều rộng tối đa */
+}
+
+/* Định dạng cho các hộp */
+.box {
+  background-color: rgb(195, 195, 195);
+  padding: 20px;
+  border-radius: 10px; /* Bo góc */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h2,
+.box p {
+  margin: 0;
+}
+
+/* Định dạng cho bóng đổ */
+/*đỏ rgb(221, 68, 68) */
+/*cam rgb(243, 170, 0) */
+/*vàng rgb(255, 244, 43)*/
+/*Xanh Lá rgb(66, 245, 53)*/
+/*Xanh lá lọt rgb(53, 245, 143)*/
+/*Xanh da trời rgb(53, 245, 223)*/
+/*Xanh biển rgb(45, 141, 250)*/
+/*Màu tím rgb(215, 36, 246)*/
+/*Màu Hồng rgb(246, 36, 190)*/
+/*màu đỏ rgb(246, 36, 43)*/
+
+.red-box:hover {
+  background-color: #fcb8ba;
+  box-shadow: 0 8px 16px rgb(221, 68, 68);
+}
+
+.blue-gray-content {
+  background-color: #bdfcf5;
+  box-shadow: 0 8px 16px rgb(53, 245, 223);
+}
+
+.blue-gray:hover {
+  background-color: #bdfcf5;
+  box-shadow: 0 8px 16px rgb(53, 245, 223);
+  cursor: pointer;
+}
+
+.ograne-box-content {
+  background-color: #f7c655;
+  box-shadow: 0 8px 16px rgb(243, 170, 0);
+}
+
+.ograne-box:hover {
+  background-color: #f7c655;
+  box-shadow: 0 8px 16px rgb(243, 170, 0);
+  cursor: pointer;
+}
+
+.blue-beach-content {
+  background-color: #90b1d6;
+  box-shadow: 0 8px 16px rgb(45, 141, 250);
+}
+
+.blue-beach:hover {
+  background-color: #90b1d6;
+  box-shadow: 0 8px 16px rgb(45, 141, 250);
+  cursor: pointer;
+}
+
+.yellow-box-content {
+  background-color: #cfc750;
+  box-shadow: 0 8px 16px rgb(255, 244, 43);
+}
+
+.yellow-box:hover {
+  background-color: #cfc750;
+  box-shadow: 0 8px 16px rgb(255, 244, 43);
+  cursor: pointer;
+}
+
+.green-box-content {
+  background-color: #5ace51;
+  box-shadow: 0 8px 16px rgb(66, 245, 53);
+}
+
+.green-box:hover {
+  background-color: #5ace51;
+  box-shadow: 0 8px 16px rgb(66, 245, 53);
+  cursor: pointer;
+}
+
+.purple-box-content {
+  background-color: #cd89d8;
+  box-shadow: 0 8px 16px rgb(215, 36, 246);
+}
+
+.purple-box:hover {
+  background-color: #cd89d8;
+  box-shadow: 0 8px 16px rgb(215, 36, 246);
+  cursor: pointer;
+}
+
+.pink-box-content {
+  background-color: #fcb8ba;
+  box-shadow: 0 8px 16px rgb(221, 68, 68);
+}
+
+.pink-box:hover {
+  background-color: #fcb8ba;
+  box-shadow: 0 8px 16px rgb(221, 68, 68);
+  cursor: pointer;
+}
+
+.white-box-content {
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+.white-box:hover {
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.modal-content p {
+  text-align: left;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.button-red {
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.button-red:hover {
+  background-color: red;
+}

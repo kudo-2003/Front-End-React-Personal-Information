@@ -1,0 +1,54 @@
+/* Thiết lập cơ bản */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  color: rgb(0, 0, 0); /* Màu chữ trắng */
+}
+
+/* Định dạng cho nội dung văn bản */
+p {
+  color: rgb(0, 0, 0); /* Màu chữ xám nhạt */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+label {
+  font-size: 1rem;
+  color: #fff; /* Màu chữ trắng */
+}
+
+/* Định dạng responsive cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+}
+
+/* Định dạng responsive cho màn hình rất nhỏ */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  label {
+    font-size: 0.8rem;
+  }
+}
