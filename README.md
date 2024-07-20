@@ -8,6 +8,6 @@ Nghê nghiệp
 chuyên môn
 Tình Yêu
 kỹ năng
-https://www.svgrepo.com/collection/gradient-line-icons/
-https://youtu.be/QkbXWa-0Xc4
-@
+# https://www.svgrepo.com/collection/gradient-line-icons/
+# https://youtu.be/QkbXWa-0Xc4
+# gõ @@hungluong1321 trên youtube 
